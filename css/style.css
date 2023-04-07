@@ -5,43 +5,51 @@
 }
 
 body {
-    font-family: 'Boeotia', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', cursive;
 }
 
-
-#top {
-    background-color: #975C8D;
-    min-height: 150px;
-    padding: 1%;
-
-}
-
-#left {
-    background-image: url(nika1.jpg);
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
-    min-height: 450px;
-    padding: 1%;
-    width: 18%;
-    float: left;
-}
-
-#srodek {
-    background-image: url(sakura1.jpg);
-    min-height: 450px;
-    padding: 1%;
-    width: 78%;
-    float: left;
-
-}
-
-
-
+#header,
 #footer {
     background-color: #975C8D;
-    min-height: 150px;
     padding: 1%;
-    clear: both;
+    font-family: 'Boeotia', sans-serif;
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+ol,
+ul {
+    font-size: 30px;
+}
+
+#image {
+    background-image: url(/img/sakura1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#image img {
+    display: block;
+    margin: 0 auto;
+}
+
+#text {
+    margin-right: auto;
+    margin-left: auto;
+    width: 800px;
+    padding: 1%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#content {
+    background-color: #c293ba;
 }

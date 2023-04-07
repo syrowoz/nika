@@ -28,7 +28,7 @@ ul {
 }
 
 #image {
-    background-image: url(img/sakura1.jpg);
+    background-image: url(../img/sakura1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
